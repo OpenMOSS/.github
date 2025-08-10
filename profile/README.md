@@ -1,6 +1,6 @@
 ## Introduction 👋
 
-OpenMOSS presents a collection of our research on LLMs, supported by SII, Fudan and Mosi.
+OpenMOSS presents a collection of our research on large language models (LLMs), supported by SII, Fudan University, and Mosi, under the leadership of Prof. Xipeng Qiu. Our work explores fundamental advancements in model architecture, evaluation, and application, with a focus on open, collaborative, and impactful AI research. We actively welcome researchers, students, and collaborators who share our vision to join our efforts in pushing the boundaries of LLM technology. For inquiries or collaboration opportunities, please contact Prof. Qiu at xpqiu@fudan.edu.cn.
 
 <!--
 

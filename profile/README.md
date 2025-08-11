@@ -4,6 +4,8 @@ OpenMOSS presents a collection of our research on large language models (LLMs), 
 
 We actively welcome researchers, students, and collaborators who share our vision to join our efforts in pushing the boundaries of LLM technology. For inquiries or collaboration opportunities, please contact Prof. Qiu at xpqiu@fudan.edu.cn.
 
+* SII is an institution dedicated to innovation in education and research in the field of AI.
+
 <!--
 
 **Here are some ideas to get you started:**

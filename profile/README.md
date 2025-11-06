@@ -1,10 +1,15 @@
 ## Introduction 👋
 
-OpenMOSS presents a collection of our research on large language models (LLMs), supported by SII and Fudan University, under the leadership of Prof. Xipeng Qiu. Our work explores fundamental advancements in model architecture, evaluation, and application, with a focus on open, collaborative, and impactful AI research. 
+OpenMOSS Team is a research group under the Shanghai Innovation Institution (SII), working in close collaboration with Fudan University and MOSI Intelligence. Led by Prof. Xipeng Qiu, the team conducts cutting-edge research on large language models (LLMs), advancing the frontiers of model architecture, evaluation, and application with a strong commitment to open, collaborative, and impactful AI innovation.
 
-We actively welcome researchers, students, and collaborators who share our vision to join our efforts in pushing the boundaries of LLM technology. For inquiries or collaboration opportunities, please contact Prof. Qiu at xpqiu@fudan.edu.cn.
+We warmly welcome researchers, students, and collaborators who share our vision to join us in pushing the boundaries of LLM technology. For inquiries or collaboration opportunities, please contact us at openmoss@sii.edu.cn
+.
 
-* SII is an institution dedicated to innovation in education and research in the field of AI.
+🌐 Website: http://openmoss.sii.edu.cn/
+
+💻 GitHub: https://github.com/OpenMOSS
+
+* SII is dedicated to fostering innovation in education and research in the field of artificial intelligence.
 
 <!--
 

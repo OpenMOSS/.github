@@ -5,7 +5,7 @@ OpenMOSS Team is a research group under the Shanghai Innovation Institution (SII
 We warmly welcome researchers, students, and collaborators who share our vision to join us in pushing the boundaries of LLM technology. For inquiries or collaboration opportunities, please contact us at openmoss@sii.edu.cn
 .
 
-🌐 Website: http://openmoss.sii.edu.cn/
+🌐 Website: https://openmoss.github.io/ or http://openmoss.sii.edu.cn/
 
 💻 GitHub: https://github.com/OpenMOSS
 

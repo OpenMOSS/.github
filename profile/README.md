@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/156300419?s=200&v=4" width="120" alt="OpenMOSS Logo" />
-
-# OpenMOSS Team
+<img src="./assets/moss-logo.svg" width="420" alt="OpenMOSS" />
 
 **Shanghai Innovation Institute (SII) · Fudan University · MOSI.AI**
 

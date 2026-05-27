@@ -20,7 +20,7 @@ OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai
 
 | Direction | Flagship Repositories |
 |---|---|
-| 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) · [BandPO](https://github.com/OpenMOSS/BandPO) |
+| 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) |
 | 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) |
 | 🔊 **Speech & Audio** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
 | 🤖 **Embodied AI & Robotics** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) · [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) |

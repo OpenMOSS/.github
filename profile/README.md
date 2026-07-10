@@ -22,17 +22,25 @@ OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai
 |---|---|
 | 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) |
 | 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) |
-| 🔊 **Speech & Audio** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
-| 🤖 **Embodied AI & Robotics** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) · [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) |
-| 🔍 **Interpretability** | [Llamascopium](https://github.com/OpenMOSS/Llamascopium) (formerly Language-Model-SAEs) |
+| 🌐 **Omni LLMs** | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
+| 🗣️ **Speech / TTS** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
+| 🗣️ **Speech / Transcribe** | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) |
+| 🗣️ **Speech / Interaction** | [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) |
+| 🎵 **Audio & Music** | [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
+| 🤖 **Embodied AI & Robotics** | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) |
+| 🔍 **Interpretability** | [Llamascopium](https://github.com/OpenMOSS/Llamascopium) (formerly Language-Model-SAEs) · [Lorsa](https://github.com/OpenMOSS/Lorsa) |
+| 📊 **Benchmarks & Evaluation** | [VLABench](https://github.com/OpenMOSS/VLABench) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) |
+| ⚡ **Efficiency & Long Context** | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [rope_pp](https://github.com/OpenMOSS/rope_pp) |
+| 📚 **Survey** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
 
 ## ✨ Recent Highlights
 
-- **MOSS-TTS-Nano** — 0.1B-param multilingual TTS, runs on CPU, 3.2k★
-- **MOSS-Audio** — Unified audio understanding foundation model (4B / 8B, Instruct & Thinking variants)
-- **MOVA** — Scalable and synchronized video–audio generation
-- **MOSS-VL** — Multimodal model series with XRoPE architecture, full training stack open-sourced
-- **Awesome-WAM** — Curated reading list for World Action Models in embodied AI
+- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** — 0.1B-param multilingual TTS that runs directly on CPU, no GPU required · ~3.9k★
+- **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — Expressive speech & sound-generation family: long-form, multi-speaker, voice/character design, and streaming TTS · ~3.7k★
+- **[MOVA](https://github.com/OpenMOSS/MOVA)** — Scalable and synchronized video–audio generation · ~1.1k★
+- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list & resources for World Action Models in embodied AI · ~1.1k★
+- **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA & reasoning
+- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced
 
 > See the [pinned repositories](https://github.com/OpenMOSS) for quick access, or browse [all 50+ repositories](https://github.com/orgs/OpenMOSS/repositories).
 

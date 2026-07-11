@@ -46,6 +46,7 @@ OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai
 - **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list & resources for World Action Models in embodied AI · ~1.1k★
 - **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA & reasoning
 - **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced
+- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** — Speech transcription with speaker diarization (who spoke when) for multi-speaker, long-form audio
 
 > See the [pinned repositories](https://github.com/OpenMOSS) for quick access, or browse [all 50+ repositories](https://github.com/orgs/OpenMOSS/repositories).
 

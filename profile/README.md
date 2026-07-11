@@ -6,7 +6,12 @@
 
 Open, collaborative research on Large Language Models and Multimodal Foundation Models.
 
-[🌐 Website](https://openmoss.github.io/) · [🤗 Hugging Face](https://huggingface.co/OpenMOSS-Team) · [✉️ openmoss@sii.edu.cn](mailto:openmoss@sii.edu.cn)
+<p>
+  <a href="https://openmoss.ai/"><img src="./assets/badges/website.svg" alt="Website"></a>
+  <a href="https://huggingface.co/OpenMOSS-Team"><img src="./assets/badges/huggingface.svg" alt="Hugging Face"></a>
+  <a href="https://github.com/OpenMOSS"><img src="./assets/badges/github.svg" alt="GitHub"></a>
+  <a href="mailto:openmoss@sii.edu.cn"><img src="./assets/badges/contact.svg" alt="Email"></a>
+</p>
 
 </div>
 

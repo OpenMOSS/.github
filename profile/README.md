@@ -4,7 +4,7 @@
 
 **Shanghai Innovation Institute (SII) · Fudan University · MOSI.AI**
 
-Open, collaborative research on Large Language Models and Multimodal Foundation Models.
+Open, collaborative research on language, multimodal, speech, and embodied foundation models.
 
 <p>
   <a href="https://openmoss.ai/"><img src="./assets/badges/website.svg" alt="Website"></a>
@@ -19,14 +19,14 @@ Open, collaborative research on Large Language Models and Multimodal Foundation 
 
 ## 👋 About Us
 
-OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai Innovation Institute (SII) and working in close collaboration with Fudan University and MOSI.AI. We conduct cutting-edge research across the full LLM stack — from model architecture and training to evaluation, interpretability, and real-world applications — with a strong commitment to open and reproducible science.
+OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai Innovation Institute (SII) and working in close collaboration with Fudan University and MOSI.AI. We conduct cutting-edge research across the full foundation-model stack — from model architecture and training to evaluation, interpretability, and real-world applications — with a strong commitment to open and reproducible science.
 
 ## 🔬 Research Directions
 
 | Direction | Flagship Repositories |
 |---|---|
 | 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) |
-| 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) |
+| 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) · [OmniVAE](https://github.com/OpenMOSS/OmniVAE) |
 | 🌐 **Omni LLMs** | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
 | 🗣️ **Speech / TTS** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
 | 🗣️ **Speech / Transcribe** | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) |
@@ -34,20 +34,22 @@ OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai
 | 🎵 **Audio & Music** | [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
 | 🤖 **Embodied AI & Robotics** | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) · [OpenETA](https://github.com/OpenMOSS/OpenETA) |
 | 🔍 **Interpretability** | [Llamascopium](https://github.com/OpenMOSS/Llamascopium) (formerly Language-Model-SAEs) · [Lorsa](https://github.com/OpenMOSS/Lorsa) |
-| 📊 **Benchmarks & Evaluation** | [VLABench](https://github.com/OpenMOSS/VLABench) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) |
+| 📊 **Benchmarks & Evaluation** | [SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science) · [VLABench](https://github.com/OpenMOSS/VLABench) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) |
 | ⚡ **Efficiency & Long Context** | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [rope_pp](https://github.com/OpenMOSS/rope_pp) |
 | 📚 **Survey** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
 
 ## ✨ Recent Highlights
 
-- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** — 0.1B-param multilingual TTS that runs directly on CPU, no GPU required · ~4.1k★
+- **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science)** — Benchmark for evaluating whether coding agents can resolve real engineering tasks in scientific software · ~70★
+- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** — 0.1B-param multilingual TTS that runs directly on CPU, no GPU required · ~4.3k★
 - **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — Expressive speech & sound-generation family: long-form, multi-speaker, voice/character design, and streaming TTS · ~4.0k★
 - **[MOVA](https://github.com/OpenMOSS/MOVA)** — Scalable and synchronized video–audio generation · ~1.1k★
-- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list & resources for World Action Models in embodied AI · ~1.2k★
-- **[OpenETA](https://github.com/OpenMOSS/OpenETA)** — Embodied task agent that extends the agentic loop from the digital world into the physical world · ~110★
-- **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA & reasoning · ~630★
-- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced · ~410★
-- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** — Speech transcription with speaker diarization (who spoke when) for multi-speaker, long-form audio · ~1.4k★
+- **[OmniVAE](https://github.com/OpenMOSS/OmniVAE)** — Audio–video VAE with cross-modal alignment for joint generation · ~80★
+- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list & resources for World Action Models in embodied AI · ~1.4k★
+- **[OpenETA](https://github.com/OpenMOSS/OpenETA)** — Embodied task agent that extends the agentic loop from the digital world into the physical world · ~160★
+- **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA & reasoning · ~650★
+- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced · ~490★
+- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** — Speech transcription with speaker diarization (who spoke when) for multi-speaker, long-form audio · ~1.7k★
 
 > See the [pinned repositories](https://github.com/OpenMOSS) for quick access, or browse [all 60+ repositories](https://github.com/orgs/OpenMOSS/repositories).
 

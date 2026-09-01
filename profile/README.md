@@ -4,7 +4,7 @@
 
 **Shanghai Innovation Institute (SII) · Fudan University · MOSI.AI**
 
-Open, collaborative research on language, multimodal, speech, and embodied foundation models.
+Open research on foundation models for language, perception, speech, and embodied intelligence.
 
 <p>
   <a href="https://openmoss.ai/"><img src="./assets/badges/website.svg" alt="Website"></a>
@@ -17,46 +17,41 @@ Open, collaborative research on language, multimodal, speech, and embodied found
 
 ---
 
-## 👋 About Us
+## 👋 About us
 
-OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai Innovation Institute (SII) and working in close collaboration with Fudan University and MOSI.AI. We conduct cutting-edge research across the full foundation-model stack — from model architecture and training to evaluation, interpretability, and real-world applications — with a strong commitment to open and reproducible science.
+OpenMOSS is led by **Prof. Xipeng Qiu** at the Shanghai Innovation Institute (SII), in collaboration with Fudan University and MOSI.AI. We release models, datasets, benchmarks, and research tools for language, multimodal perception, speech, and embodied intelligence.
 
-## 🔬 Research Directions
+## 🔬 Research directions
 
-| Direction | Flagship Repositories |
+| Direction | Flagship repositories |
 |---|---|
-| 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) |
-| 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) · [OmniVAE](https://github.com/OpenMOSS/OmniVAE) |
-| 🌐 **Omni LLMs** | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
-| 🗣️ **Speech / TTS** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
-| 🗣️ **Speech / Transcribe** | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) |
-| 🗣️ **Speech / Interaction** | [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) |
-| 🎵 **Audio & Music** | [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
-| 🤖 **Embodied AI & Robotics** | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) · [OpenETA](https://github.com/OpenMOSS/OpenETA) |
+| 🧠 **Language models** | [MOSS](https://github.com/OpenMOSS/MOSS) · [DiRL](https://github.com/OpenMOSS/DiRL) · [BandPO](https://github.com/OpenMOSS/BandPO) |
+| 👁️ **Visual understanding** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) |
+| 🎬 **Multimodal generation** | [MOVA](https://github.com/OpenMOSS/MOVA) · [OmniVAE](https://github.com/OpenMOSS/OmniVAE) |
+| 🌐 **Multimodal language models** | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
+| 🗣️ **Speech and audio generation** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
+| 🎧 **Speech, audio, and music understanding** | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) · [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
+| 🤖 **Embodied AI and robotics** | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) · [OpenETA](https://github.com/OpenMOSS/OpenETA) |
 | 🔍 **Interpretability** | [Llamascopium](https://github.com/OpenMOSS/Llamascopium) (formerly Language-Model-SAEs) · [Lorsa](https://github.com/OpenMOSS/Lorsa) |
-| 📊 **Benchmarks & Evaluation** | [SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science) · [VLABench](https://github.com/OpenMOSS/VLABench) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) |
-| ⚡ **Efficiency & Long Context** | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [rope_pp](https://github.com/OpenMOSS/rope_pp) |
-| 📚 **Survey** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
+| 📊 **Benchmarks and evaluation** | [SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science) · [ContextWeave](https://github.com/OpenMOSS/ContextWeave) · [AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench) · [FutureOmni](https://github.com/OpenMOSS/FutureOmni) · [VLABench](https://github.com/OpenMOSS/VLABench) |
+| ⚡ **Efficient training and long context** | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [Sparse-dLLM](https://github.com/OpenMOSS/Sparse-dLLM) · [rope_pp](https://github.com/OpenMOSS/rope_pp) · [LongSafety](https://github.com/OpenMOSS/LongSafety) |
+| 📚 **Surveys and resources** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
 
-## ✨ Recent Highlights
+## ✨ Recent highlights
 
-- **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science)** — Benchmark for evaluating whether coding agents can resolve real engineering tasks in scientific software · ~70★
-- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** — 0.1B-param multilingual TTS that runs directly on CPU, no GPU required · ~4.3k★
-- **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — Expressive speech & sound-generation family: long-form, multi-speaker, voice/character design, and streaming TTS · ~4.0k★
-- **[MOVA](https://github.com/OpenMOSS/MOVA)** — Scalable and synchronized video–audio generation · ~1.1k★
-- **[OmniVAE](https://github.com/OpenMOSS/OmniVAE)** — Audio–video VAE with cross-modal alignment for joint generation · ~80★
-- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list & resources for World Action Models in embodied AI · ~1.4k★
-- **[OpenETA](https://github.com/OpenMOSS/OpenETA)** — Embodied task agent that extends the agentic loop from the digital world into the physical world · ~160★
-- **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA & reasoning · ~650★
-- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced · ~490★
-- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** — Speech transcription with speaker diarization (who spoke when) for multi-speaker, long-form audio · ~1.7k★
+- **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science):** Tests whether coding agents can resolve real engineering issues in scientific software.
+- **[ContextWeave](https://github.com/OpenMOSS/ContextWeave):** Evaluates memory systems for coding agents through long-horizon worklog tasks.
+- **[AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench):** Measures how well LLM agents improve machine learning experiments through sequential hyperparameter changes.
+- **[OmniVAE](https://github.com/OpenMOSS/OmniVAE):** Aligns audio and video in a shared latent space for joint reconstruction and generation.
+- **[OpenETA](https://github.com/OpenMOSS/OpenETA):** Connects perception, action, verification, and learning in a continuous physical-world loop.
+- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize):** Produces timestamped, speaker-aware transcripts and acoustic event annotations for long recordings.
+- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano):** Runs multilingual voice cloning and real-time speech generation on a CPU with 100 million parameters.
+- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL):** Provides open-weight 11B models for long-form and real-time video understanding.
+- **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS):** Covers long-form speech, dialogue synthesis, voice design, sound effects, and streaming TTS.
+- **[MOVA](https://github.com/OpenMOSS/MOVA):** Generates synchronized video and audio within a single model.
 
 > See the [pinned repositories](https://github.com/OpenMOSS) for quick access, or browse [all 60+ repositories](https://github.com/orgs/OpenMOSS/repositories).
 
-## 🤝 Join Us
+## 🤝 Join us
 
-We welcome researchers, students, and collaborators who share our vision. For PhD/intern openings, research collaborations, or general inquiries, please reach us at **[openmoss@sii.edu.cn](mailto:openmoss@sii.edu.cn)**.
-
----
-
-<sub>The Shanghai Innovation Institute (SII) is dedicated to fostering innovation in education and research in the field of artificial intelligence.</sub>
+For PhD and internship openings, research collaborations, or general inquiries, contact **[openmoss@sii.edu.cn](mailto:openmoss@sii.edu.cn)**.

@@ -1,0 +1,98 @@
+{
+  "MOSS": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/projects/moss.png",
+    "width": 112,
+    "height": 53,
+    "source": "https://txsun1997.github.io/images/moss.png"
+  },
+  "DiRL": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg",
+    "width": 112,
+    "height": 47,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg"
+  },
+  "MOSS-VL": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-VL/main/assets/logo.png",
+    "width": 82,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-VL/main/assets/logo.png"
+  },
+  "MOVA": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOVA/main/assets/logo.png",
+    "width": 112,
+    "height": 53,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOVA/main/assets/logo.png"
+  },
+  "AnyGPT": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/AnyGPT/main/static/images/logo.png",
+    "width": 56,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/AnyGPT/main/static/images/logo.png"
+  },
+  "MOSS-TTSD": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-TTSD/main/asset/ttsd.png",
+    "width": 84,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-TTSD/main/asset/ttsd.png"
+  },
+  "MOSS-Speech": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Speech/main/assets/logo-large.png",
+    "width": 112,
+    "height": 30,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Speech/main/assets/logo-large.png"
+  },
+  "MOSS-Transcribe-Diarize": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/main/moss_transcribe_diarize/app/static/favicon.svg",
+    "width": 56,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/main/moss_transcribe_diarize/app/static/favicon.svg"
+  },
+  "MOSS-Audio": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Audio/main/assets/moss-audio-logo.png",
+    "width": 84,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Audio/main/assets/moss-audio-logo.png"
+  },
+  "MOSS-Music": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Music/main/assets/MOSS-Music.png",
+    "width": 84,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Music/main/assets/MOSS-Music.png"
+  },
+  "EasyWAM": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/EasyWAM/main/assets/icon.png",
+    "width": 56,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/EasyWAM/main/assets/icon.png"
+  },
+  "OpenETA": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/OpenETA/main/docs/assets/openeta-header-eta-clear.png",
+    "width": 112,
+    "height": 39,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/OpenETA/main/docs/assets/openeta-header-eta-clear.png"
+  },
+  "RoboOmni": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/RoboOmni/main/assets/logo.png",
+    "width": 112,
+    "height": 28,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/RoboOmni/main/assets/logo.png"
+  },
+  "CoLLiE": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png",
+    "width": 112,
+    "height": 28,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png"
+  },
+  "AgentHPOBench": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/AgentHPOBench/main/assets/agenthpobench-logo.png",
+    "width": 112,
+    "height": 37,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/AgentHPOBench/main/assets/agenthpobench-logo.png"
+  },
+  "FutureOmni": {
+    "src": "https://raw.githubusercontent.com/OpenMOSS/FutureOmni/main/asset/logo0.png",
+    "width": 58,
+    "height": 56,
+    "source": "https://raw.githubusercontent.com/OpenMOSS/FutureOmni/main/asset/logo0.png"
+  }
+}

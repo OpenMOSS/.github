@@ -16,7 +16,7 @@
 
 按研究方向探索模型、训练框架、评测基准与开源工具。
 
-[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [模型训练](#user-content-training) · [可解释性与长上下文](#user-content-methods) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
+[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [模型训练](#user-content-training) · [新架构](#user-content-architectures) · [可解释性](#user-content-methods) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
 
 <a id="language"></a>
 
@@ -180,15 +180,9 @@
 <a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">模型</a> · <a href="https://arxiv.org/abs/2512.22234">论文</a>
 </p>
 
-<a id="methods"></a>
+<a id="architectures"></a>
 
-## 可解释性与长上下文
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
-训练分析稀疏自编码器、追踪电路并可视化特征<br>
-<a href="https://openmoss.ai/Llamascopium/">文档</a>
-</p>
+## 新架构
 
 <p>
 <strong><a href="https://github.com/OpenMOSS/LongLLaDA">LongLLaDA</a></strong><br>
@@ -202,7 +196,19 @@
 <a href="https://arxiv.org/abs/2508.02558">论文</a>
 </p>
 
-> **相关项目：** [Lorsa](https://github.com/OpenMOSS/Lorsa)（低秩稀疏注意力分解） · [rope_pp](https://github.com/OpenMOSS/rope_pp)（长上下文旋转位置编码） · [ReAttention](https://github.com/OpenMOSS/ReAttention)（无需训练的上下文扩展）
+> **相关项目：** [rope_pp](https://github.com/OpenMOSS/rope_pp)（长上下文旋转位置编码） · [ReAttention](https://github.com/OpenMOSS/ReAttention)（无需训练的上下文扩展）
+
+<a id="methods"></a>
+
+## 可解释性
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
+训练分析稀疏自编码器、追踪电路并可视化特征<br>
+<a href="https://openmoss.ai/Llamascopium/">文档</a>
+</p>
+
+> **相关项目：** [Lorsa](https://github.com/OpenMOSS/Lorsa)（低秩稀疏注意力分解）
 
 <a id="benchmarks"></a>
 

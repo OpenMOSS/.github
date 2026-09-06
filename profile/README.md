@@ -16,7 +16,7 @@ English · [简体中文](https://github.com/OpenMOSS/.github/blob/main/profile/
 
 Models, training frameworks, benchmarks, and research resources, organized by area.
 
-[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training](#user-content-training) · [Interpretability & long context](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
+[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training](#user-content-training) · [New architectures](#user-content-architectures) · [Interpretability](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
 
 <a id="language"></a>
 
@@ -180,15 +180,9 @@ Supervised fine-tuning and reinforcement learning for diffusion language models<
 <a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">Model</a> · <a href="https://arxiv.org/abs/2512.22234">Paper</a>
 </p>
 
-<a id="methods"></a>
+<a id="architectures"></a>
 
-## Interpretability & long context
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
-Train and analyze sparse autoencoders, trace circuits, and visualize features<br>
-<a href="https://openmoss.ai/Llamascopium/">Docs</a>
-</p>
+## New architectures
 
 <p>
 <strong><a href="https://github.com/OpenMOSS/LongLLaDA">LongLLaDA</a></strong><br>
@@ -202,7 +196,19 @@ Accelerate diffusion LLMs with cache eviction and sparse attention<br>
 <a href="https://arxiv.org/abs/2508.02558">Paper</a>
 </p>
 
-> **Also explore:** [Lorsa](https://github.com/OpenMOSS/Lorsa) (low-rank sparse attention decomposition) · [rope_pp](https://github.com/OpenMOSS/rope_pp) (rotary position embeddings for long context) · [ReAttention](https://github.com/OpenMOSS/ReAttention) (training-free context extension)
+> **Also explore:** [rope_pp](https://github.com/OpenMOSS/rope_pp) (rotary position embeddings for long context) · [ReAttention](https://github.com/OpenMOSS/ReAttention) (training-free context extension)
+
+<a id="methods"></a>
+
+## Interpretability
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
+Train and analyze sparse autoencoders, trace circuits, and visualize features<br>
+<a href="https://openmoss.ai/Llamascopium/">Docs</a>
+</p>
+
+> **Also explore:** [Lorsa](https://github.com/OpenMOSS/Lorsa) (low-rank sparse attention decomposition)
 
 <a id="benchmarks"></a>
 

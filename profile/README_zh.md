@@ -12,42 +12,115 @@
 
 </div>
 
-## 按用途找到项目
+## 项目导航
 
-| 你想完成的任务 | 项目 | 从这里开始 |
+按方向浏览模型、训练框架、评测基准与研究资源。点击项目名进入代码仓库，右侧可直达模型、演示、论文或文档。
+
+[语言模型](#language) · [视觉与生成](#vision) · [语音生成](#speech) · [音频理解](#audio) · [具身智能](#embodied) · [可解释性与训练](#methods) · [评测基准](#benchmarks) · [资源与工具](#resources)
+
+<a id="language"></a>
+
+### 语言模型与后训练
+
+| 项目 | 主要能力与用途 | 直达入口 |
 | --- | --- | --- |
-| 在 CPU 上合成语音、克隆音色 | **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)**：1 亿参数、多语言、支持 ONNX 推理 | [在线体验](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano) · [本地运行](https://github.com/OpenMOSS/MOSS-TTS-Nano/blob/main/README_zh.md#快速开始) |
-| 生成长篇朗读、多人对话、音色或音效 | **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)**：语音与声音生成模型家族 | [选择模型](https://github.com/OpenMOSS/MOSS-TTS/blob/main/README_zh.md#选择适合任务的模型) · [模型下载](https://huggingface.co/collections/OpenMOSS-Team/moss-tts) |
-| 转写会议、播客与访谈 | **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)**：0.9B 参数、50 多种语言、说话人标记与时间戳 | [字幕应用](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize/blob/main/README_zh.md#字幕-web-应用) · [模型下载](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) |
-| 理解语音、环境音与音乐 | **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)**：音频描述、问答与推理 | [本地运行](https://github.com/OpenMOSS/MOSS-Audio/blob/main/README_zh.md#快速开始) · [模型下载](https://huggingface.co/collections/OpenMOSS-Team/moss-audio) |
-| 理解长视频或与实时视频流交互 | **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)**：11B 参数，支持离线与实时视频理解 | [在线体验](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-VL) · [项目主页](https://openmoss.ai/MOSS-VL/) |
-| 生成声画同步的视频 | **[MOVA](https://github.com/OpenMOSS/MOVA)**：联合音视频生成，提供训练与 LoRA 微调流程 | [观看样例](https://github.com/OpenMOSS/MOVA#demo) · [模型下载](https://huggingface.co/collections/OpenMOSS-Team/mova) |
-| 训练和评测世界动作模型 | **[EasyWAM](https://github.com/OpenMOSS/EasyWAM)**：统一训练、微调与评测流程 | [项目主页](https://openmoss.ai/EasyWAM/) · [模型下载](https://huggingface.co/collections/OpenMOSS-Team/easywam) |
+| **[MOSS](https://github.com/OpenMOSS/MOSS)** | 支持中英双语对话与工具调用 | [模型](https://github.com/OpenMOSS/MOSS#模型) · [使用说明](https://github.com/OpenMOSS/MOSS#下载安装) |
+| **[DiRL](https://github.com/OpenMOSS/DiRL)** | 扩散语言模型的监督微调与强化学习 | [模型](https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct) · [论文](https://arxiv.org/abs/2512.22234) |
+| **[BandPO](https://github.com/OpenMOSS/BandPO)** | 面向大模型强化学习的概率感知策略优化 | [论文](https://arxiv.org/abs/2603.04918) |
 
-## 研究工具与评测基准
+**相关项目：** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought)（双语推理数据）
 
-- **[OmniVAE](https://github.com/OpenMOSS/OmniVAE)**：在对齐的潜在空间中编码和重建音视频，并提供联合生成流程。[项目主页](https://openmoss.ai/OmniVAE.github.io/)。
-- **[Llamascopium](https://github.com/OpenMOSS/Llamascopium)**：训练稀疏自编码器、追踪电路、可视化学习到的特征。[使用文档](https://openmoss.ai/Llamascopium/)。
-- **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science)**：用科学软件中的工程任务评测编程智能体。[排行榜](https://swescience.github.io/)。智能体记忆与超参数优化研究另见 [ContextWeave](https://github.com/OpenMOSS/ContextWeave) 和 [AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench)。
-- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)**：通过综述、论文目录与[基准对比](https://openmoss.ai/Awesome-WAM/leaderboard/)了解世界动作模型。具身智能体研究另见 [OpenETA](https://github.com/OpenMOSS/OpenETA)、[RoboOmni](https://github.com/OpenMOSS/RoboOmni) 和 [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1)。
+<a id="vision"></a>
 
-<details>
-<summary><b>展开全部研究方向</b></summary>
+### 视觉理解与多模态生成
 
-| 方向 | 项目 |
-| --- | --- |
-| 语言模型与后训练 | [MOSS](https://github.com/OpenMOSS/MOSS) · [DiRL](https://github.com/OpenMOSS/DiRL) · [BandPO](https://github.com/OpenMOSS/BandPO) |
-| 视觉理解 | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) |
-| 多模态生成与建模 | [MOVA](https://github.com/OpenMOSS/MOVA) · [OmniVAE](https://github.com/OpenMOSS/OmniVAE) · [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
-| 语音与声音生成 | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
-| 语音、音频与音乐理解 | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) · [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
-| 具身智能与机器人 | [EasyWAM](https://github.com/OpenMOSS/EasyWAM) · [OpenETA](https://github.com/OpenMOSS/OpenETA) · [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) |
-| 可解释性 | [Llamascopium](https://github.com/OpenMOSS/Llamascopium)（原 Language-Model-SAEs）· [Lorsa](https://github.com/OpenMOSS/Lorsa) |
-| 评测基准 | [SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science) · [ContextWeave](https://github.com/OpenMOSS/ContextWeave) · [AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench) · [FutureOmni](https://github.com/OpenMOSS/FutureOmni) · [VLABench](https://github.com/OpenMOSS/VLABench) |
-| 高效训练与长上下文 | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [Sparse-dLLM](https://github.com/OpenMOSS/Sparse-dLLM) · [rope_pp](https://github.com/OpenMOSS/rope_pp) · [LongSafety](https://github.com/OpenMOSS/LongSafety) |
-| 综述与资源 | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** | 11B 参数，支持长视频理解与实时视频交互 | [体验](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-VL) · [模型](https://huggingface.co/collections/OpenMOSS-Team/moss-vl) |
+| **[MOVA](https://github.com/OpenMOSS/MOVA)** | 声画同步生成，提供训练与 LoRA 微调流程 | [样例](https://github.com/OpenMOSS/MOVA#demo) · [模型](https://huggingface.co/collections/OpenMOSS-Team/mova) |
+| **[OmniVAE](https://github.com/OpenMOSS/OmniVAE)** | 面向重建与联合生成的音视频对齐表征 | [主页](https://openmoss.ai/OmniVAE.github.io/) · [模型](https://huggingface.co/OpenMOSS-Team/OmniVAE) |
+| **[AnyGPT](https://github.com/OpenMOSS/AnyGPT)** | 统一建模文本、语音、图像与音乐的多模态语言模型 | [演示](https://junzhan2000.github.io/AnyGPT.github.io/) · [数据集](https://huggingface.co/datasets/fnlp/AnyInstruct) |
 
-</details>
+**相关项目：** [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview)（早期流式视频模型）
+
+<a id="speech"></a>
+
+### 语音与声音生成
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** | 覆盖朗读、对话、音色设计与音效的模型家族 | [模型选型](https://github.com/OpenMOSS/MOSS-TTS/blob/main/README_zh.md#选择适合任务的模型) · [模型](https://huggingface.co/collections/OpenMOSS-Team/moss-tts) |
+| **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** | 1 亿参数多语言音色克隆，支持 CPU 与 ONNX 推理 | [体验](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano) · [本地运行](https://github.com/OpenMOSS/MOSS-TTS-Nano/blob/main/README_zh.md#快速开始) |
+| **[MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD)** | 长时、多说话人对话与播客语音合成 | [体验](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTSD-v1.0) · [模型](https://huggingface.co/OpenMOSS-Team/MOSS-TTSD-v1.0) |
+| **[MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech)** | 无需文本引导的端到端语音对话 | [主页](http://moss-speech.open-moss.com/) · [论文](https://arxiv.org/abs/2510.00499) |
+| **[MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer)** | 统一语音、环境音与音乐的流式音频编码 | [模型](https://huggingface.co/OpenMOSS-Team/MOSS-Audio-Tokenizer) · [论文](https://arxiv.org/abs/2602.10934) |
+
+**相关项目：** [MOSS-TTS-Nano-Reader](https://github.com/OpenMOSS/MOSS-TTS-Nano-Reader)（浏览器朗读应用） · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview)（实时语音对话）
+
+<a id="audio"></a>
+
+### 语音、音频与音乐理解
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** | 0.9B 参数、50 多种语言转写，输出说话人标记与时间戳 | [字幕应用](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize/blob/main/README_zh.md#字幕-web-应用) · [模型](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) |
+| **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** | 面向真实场景音频的描述、问答与推理 | [主页](https://openmoss.ai/MOSS-Audio/) · [模型](https://huggingface.co/collections/OpenMOSS-Team/moss-audio) |
+| **[MOSS-Music](https://github.com/OpenMOSS/MOSS-Music)** | 音乐描述、歌词转写、结构分析与问答 | [模型](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) |
+
+**相关项目：** [MOSS-Audio-Tokenizer-Eval](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer-Eval)（音频编码器重建评测） · [TTSD-eval](https://github.com/OpenMOSS/TTSD-eval)（多说话人语音评测）
+
+<a id="embodied"></a>
+
+### 具身智能与机器人
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[EasyWAM](https://github.com/OpenMOSS/EasyWAM)** | 世界动作模型的统一训练、微调与评测框架 | [主页](https://openmoss.ai/EasyWAM/) · [模型](https://huggingface.co/collections/OpenMOSS-Team/easywam) |
+| **[OpenETA](https://github.com/OpenMOSS/OpenETA)** | 连接感知、行动、验证与学习的具身智能体 | [主页](https://openmoss.ai/OpenETA/) |
+| **[RoboOmni](https://github.com/OpenMOSS/RoboOmni)** | 面向多模态物理环境的主动式机器人操作 | [主页](https://openmoss.github.io/RoboOmni/) · [模型](https://huggingface.co/fnlp/RoboOmni) |
+| **[FRoM-W1](https://github.com/OpenMOSS/FRoM-W1)** | 语言引导的人形机器人全身控制 | [主页](https://openmoss.github.io/FRoM-W1) |
+
+**相关项目：** [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1)（面向具身规划的强化学习）
+
+<a id="methods"></a>
+
+### 可解释性、高效训练与长上下文
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[Llamascopium](https://github.com/OpenMOSS/Llamascopium)** | 训练分析稀疏自编码器、追踪电路并可视化特征 | [文档](https://openmoss.ai/Llamascopium/) |
+| **[CoLLiE](https://github.com/OpenMOSS/CoLLiE)** | 面向大语言模型的高效协同训练框架 | [文档](https://openlmlab-collie.readthedocs.io) |
+| **[LongLLaDA](https://github.com/OpenMOSS/LongLLaDA)** | 扩展扩散语言模型的上下文长度 | [论文](https://arxiv.org/abs/2506.14429) |
+| **[Sparse-dLLM](https://github.com/OpenMOSS/Sparse-dLLM)** | 通过缓存淘汰与稀疏注意力加速扩散语言模型 | [论文](https://arxiv.org/abs/2508.02558) |
+
+**相关项目：** [Lorsa](https://github.com/OpenMOSS/Lorsa)（低秩稀疏注意力分解） · [rope_pp](https://github.com/OpenMOSS/rope_pp)（长上下文旋转位置编码） · [ReAttention](https://github.com/OpenMOSS/ReAttention)（无需训练的上下文扩展）
+
+<a id="benchmarks"></a>
+
+### 评测基准与智能体评测
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science)** | 基于科学软件工程任务的编程智能体评测 | [排行榜](https://swescience.github.io/) · [数据集](https://huggingface.co/datasets/OpenMOSS-Team/SWE-bench-Science) |
+| **[ContextWeave](https://github.com/OpenMOSS/ContextWeave)** | 通过长程工作日志任务评测编程智能体记忆 | [论文](http://arxiv.org/abs/2608.04830) |
+| **[AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench)** | 评测大模型智能体的序贯超参数优化能力 | [论文](https://arxiv.org/abs/2607.29626) |
+| **[ABC-Bench](https://github.com/OpenMOSS/ABC-Bench)** | 评测编程智能体构建、部署与验证后端服务的能力 | [主页](https://dawning-road.github.io/blog/abc-bench) |
+| **[FutureOmni](https://github.com/OpenMOSS/FutureOmni)** | 根据音视频上下文预测未来事件 | [主页](https://openmoss.ai/FutureOmni/) · [数据集](https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni) |
+| **[VLABench](https://github.com/OpenMOSS/VLABench)** | 评测视觉语言动作模型与具身智能体 | [主页](https://vlabench.github.io/) |
+
+**相关项目：** [LongSafety](https://github.com/OpenMOSS/LongSafety)（长上下文安全） · [VehicleWorld](https://github.com/OpenMOSS/VehicleWorld)（智能座舱交互） · [HalluQA](https://github.com/OpenMOSS/HalluQA)（中文幻觉评测） · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM)（中文多模态评测） · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know)（评测模型是否知道何时应承认不知道）
+
+<a id="resources"></a>
+
+### 综述、数据与开发工具
+
+| 项目 | 主要能力与用途 | 直达入口 |
+| --- | --- | --- |
+| **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** | 世界动作模型综述、论文目录与基准对比 | [浏览](https://openmoss.ai/Awesome-WAM/) · [基准对比](https://openmoss.ai/Awesome-WAM/leaderboard/) |
+| **[Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM)** | 覆盖架构、基础设施、训练与评测的长上下文综述 | [论文](https://arxiv.org/abs/2502.17129) |
+| **[UnifiedToolHub](https://github.com/OpenMOSS/UnifiedToolHub)** | 工具调用数据处理，以及工具使用模型的训练与评测 | [快速上手](https://github.com/OpenMOSS/UnifiedToolHub#快速上手) |
+
+**相关项目：** [claude-codex-handoff](https://github.com/OpenMOSS/claude-codex-handoff)（智能体协作协议） · [OurClaw](https://github.com/OpenMOSS/OurClaw)（多用户 OpenClaw 部署） · [imclaw-skill](https://github.com/OpenMOSS/imclaw-skill)（智能体即时通讯）
 
 ## 一起参与
 

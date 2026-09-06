@@ -16,7 +16,7 @@
 
 按方向浏览模型、训练框架、评测基准与研究资源。点击项目名进入代码仓库，右侧可直达模型、演示、论文或文档。
 
-[语言模型](#language) · [视觉与生成](#vision) · [语音生成](#speech) · [音频理解](#audio) · [具身智能](#embodied) · [可解释性与训练](#methods) · [评测基准](#benchmarks) · [资源与工具](#resources)
+[语言模型](#user-content-language) · [视觉与生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [可解释性与训练](#user-content-methods) · [评测基准](#user-content-benchmarks) · [资源与工具](#user-content-resources)
 
 <a id="language"></a>
 

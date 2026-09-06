@@ -16,7 +16,7 @@ English · [简体中文](https://github.com/OpenMOSS/.github/blob/main/profile/
 
 Browse models, training frameworks, benchmarks, and research resources by area. Project names link to code; the last column leads to models, demos, papers, or documentation.
 
-[Language models](#language) · [Vision & generation](#vision) · [Speech generation](#speech) · [Audio understanding](#audio) · [Embodied AI](#embodied) · [Interpretability & training](#methods) · [Benchmarks](#benchmarks) · [Resources & tools](#resources)
+[Language models](#user-content-language) · [Vision & generation](#user-content-vision) · [Speech generation](#user-content-speech) · [Audio understanding](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Interpretability & training](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Resources & tools](#user-content-resources)
 
 <a id="language"></a>
 

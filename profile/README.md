@@ -16,30 +16,17 @@ English · [简体中文](https://github.com/OpenMOSS/.github/blob/main/profile/
 
 Models, training frameworks, benchmarks, and research resources, organized by area.
 
-[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training & interpretability](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
+[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training](#user-content-training) · [Interpretability & long context](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
 
 <a id="language"></a>
 
-## Language models & post-training
+## Language models
 
 <p>
 <a href="https://github.com/OpenMOSS/MOSS"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/projects/moss.png" width="112" height="53" alt="MOSS logo"></a>
 <strong><a href="https://github.com/OpenMOSS/MOSS">MOSS</a></strong><br>
 Chinese and English dialogue with tool use<br>
 <a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#models">Models</a> · <a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#installation">Get started</a>
-</p>
-
-<p>
-<a href="https://github.com/OpenMOSS/DiRL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a>
-<strong><a href="https://github.com/OpenMOSS/DiRL">DiRL</a></strong><br>
-Supervised fine-tuning and reinforcement learning for diffusion language models<br>
-<a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">Model</a> · <a href="https://arxiv.org/abs/2512.22234">Paper</a>
-</p>
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/BandPO">BandPO</a></strong><br>
-Probability-aware policy optimization for LLM reinforcement learning<br>
-<a href="https://arxiv.org/abs/2603.04918">Paper</a>
 </p>
 
 > **Also explore:** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought) (bilingual reasoning data)
@@ -175,21 +162,32 @@ Language-guided whole-body control for humanoid robots<br>
 
 > **Also explore:** [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) (reinforcement learning for embodied planning)
 
-<a id="methods"></a>
+<a id="training"></a>
 
-## Interpretability, training & long context
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
-Train and analyze sparse autoencoders, trace circuits, and visualize features<br>
-<a href="https://openmoss.ai/Llamascopium/">Docs</a>
-</p>
+## Training & post-training
 
 <p>
 <a href="https://github.com/OpenMOSS/CoLLiE"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png" width="112" height="28" alt="CoLLiE logo"></a>
 <strong><a href="https://github.com/OpenMOSS/CoLLiE">CoLLiE</a></strong><br>
 Efficient collaborative training of large language models<br>
 <a href="https://openlmlab-collie.readthedocs.io">Docs</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/DiRL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a>
+<strong><a href="https://github.com/OpenMOSS/DiRL">DiRL</a></strong><br>
+Supervised fine-tuning and reinforcement learning for diffusion language models<br>
+<a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">Model</a> · <a href="https://arxiv.org/abs/2512.22234">Paper</a>
+</p>
+
+<a id="methods"></a>
+
+## Interpretability & long context
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
+Train and analyze sparse autoencoders, trace circuits, and visualize features<br>
+<a href="https://openmoss.ai/Llamascopium/">Docs</a>
 </p>
 
 <p>
@@ -264,12 +262,6 @@ World Action Model survey, paper collection, and benchmark comparisons<br>
 <strong><a href="https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM">Thus-Spake-Long-Context-LLM</a></strong><br>
 A survey of long-context architectures, infrastructure, training, and evaluation<br>
 <a href="https://arxiv.org/abs/2502.17129">Paper</a>
-</p>
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/UnifiedToolHub">UnifiedToolHub</a></strong><br>
-Prepare tool-use datasets and train and evaluate tool-using language models<br>
-<a href="https://github.com/OpenMOSS/UnifiedToolHub#快速上手">Quickstart</a>
 </p>
 
 > **Also explore:** [claude-codex-handoff](https://github.com/OpenMOSS/claude-codex-handoff) (agent collaboration protocol) · [OurClaw](https://github.com/OpenMOSS/OurClaw) (multi-user OpenClaw deployment) · [imclaw-skill](https://github.com/OpenMOSS/imclaw-skill) (agent messaging)

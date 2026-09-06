@@ -16,30 +16,17 @@
 
 按研究方向探索模型、训练框架、评测基准与开源工具。
 
-[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [训练与可解释性](#user-content-methods) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
+[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [模型训练](#user-content-training) · [可解释性与长上下文](#user-content-methods) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
 
 <a id="language"></a>
 
-## 语言模型与后训练
+## 语言模型
 
 <p>
 <a href="https://github.com/OpenMOSS/MOSS"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/projects/moss.png" width="112" height="53" alt="MOSS logo"></a>
 <strong><a href="https://github.com/OpenMOSS/MOSS">MOSS</a></strong><br>
 支持中英双语对话与工具调用<br>
 <a href="https://github.com/OpenMOSS/MOSS#模型">模型</a> · <a href="https://github.com/OpenMOSS/MOSS#下载安装">使用说明</a>
-</p>
-
-<p>
-<a href="https://github.com/OpenMOSS/DiRL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a>
-<strong><a href="https://github.com/OpenMOSS/DiRL">DiRL</a></strong><br>
-扩散语言模型的监督微调与强化学习<br>
-<a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">模型</a> · <a href="https://arxiv.org/abs/2512.22234">论文</a>
-</p>
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/BandPO">BandPO</a></strong><br>
-面向大模型强化学习的概率感知策略优化<br>
-<a href="https://arxiv.org/abs/2603.04918">论文</a>
 </p>
 
 > **相关项目：** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought)（双语推理数据）
@@ -175,21 +162,32 @@
 
 > **相关项目：** [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1)（面向具身规划的强化学习）
 
-<a id="methods"></a>
+<a id="training"></a>
 
-## 可解释性、高效训练与长上下文
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
-训练分析稀疏自编码器、追踪电路并可视化特征<br>
-<a href="https://openmoss.ai/Llamascopium/">文档</a>
-</p>
+## 训练与后训练
 
 <p>
 <a href="https://github.com/OpenMOSS/CoLLiE"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png" width="112" height="28" alt="CoLLiE logo"></a>
 <strong><a href="https://github.com/OpenMOSS/CoLLiE">CoLLiE</a></strong><br>
 面向大语言模型的高效协同训练框架<br>
 <a href="https://openlmlab-collie.readthedocs.io">文档</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/DiRL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a>
+<strong><a href="https://github.com/OpenMOSS/DiRL">DiRL</a></strong><br>
+扩散语言模型的监督微调与强化学习<br>
+<a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">模型</a> · <a href="https://arxiv.org/abs/2512.22234">论文</a>
+</p>
+
+<a id="methods"></a>
+
+## 可解释性与长上下文
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
+训练分析稀疏自编码器、追踪电路并可视化特征<br>
+<a href="https://openmoss.ai/Llamascopium/">文档</a>
 </p>
 
 <p>
@@ -264,12 +262,6 @@
 <strong><a href="https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM">Thus-Spake-Long-Context-LLM</a></strong><br>
 覆盖架构、基础设施、训练与评测的长上下文综述<br>
 <a href="https://arxiv.org/abs/2502.17129">论文</a>
-</p>
-
-<p>
-<strong><a href="https://github.com/OpenMOSS/UnifiedToolHub">UnifiedToolHub</a></strong><br>
-工具调用数据处理，以及工具使用模型的训练与评测<br>
-<a href="https://github.com/OpenMOSS/UnifiedToolHub#快速上手">快速上手</a>
 </p>
 
 > **相关项目：** [claude-codex-handoff](https://github.com/OpenMOSS/claude-codex-handoff)（智能体协作协议） · [OurClaw](https://github.com/OpenMOSS/OurClaw)（多用户 OpenClaw 部署） · [imclaw-skill](https://github.com/OpenMOSS/imclaw-skill)（智能体即时通讯）

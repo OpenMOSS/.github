@@ -16,7 +16,7 @@ English · [简体中文](https://github.com/OpenMOSS/.github/blob/main/profile/
 
 Models, training frameworks, benchmarks, and research resources, organized by area.
 
-[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training](#user-content-training) · [New architectures](#user-content-architectures) · [Interpretability](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
+[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training](#user-content-training) · [New architectures](#user-content-architectures) · [Interpretability](#user-content-methods) · [Data](#user-content-data) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
 
 <a id="language"></a>
 
@@ -28,8 +28,6 @@ Models, training frameworks, benchmarks, and research resources, organized by ar
 Chinese and English dialogue with tool use<br>
 <a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#models">Models</a> · <a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#installation">Get started</a>
 </p>
-
-> **Also explore:** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought) (bilingual reasoning data)
 
 <a id="vision"></a>
 
@@ -210,6 +208,16 @@ Train and analyze sparse autoencoders, trace circuits, and visualize features<br
 
 > **Also explore:** [Lorsa](https://github.com/OpenMOSS/Lorsa) (low-rank sparse attention decomposition)
 
+<a id="data"></a>
+
+## Data
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Ultra-Innerthought">Ultra-Innerthought</a></strong><br>
+Bilingual reasoning data<br>
+<a href="https://huggingface.co/datasets/fnlp/Ultra-Innerthought">Dataset</a>
+</p>
+
 <a id="benchmarks"></a>
 
 ## Benchmarks & agent evaluation
@@ -256,7 +264,7 @@ Evaluate vision-language-action models and embodied agents<br>
 
 <a id="resources"></a>
 
-## Surveys, datasets & developer tools
+## Surveys & developer tools
 
 <p>
 <strong><a href="https://github.com/OpenMOSS/Awesome-WAM">Awesome-WAM</a></strong><br>

@@ -16,7 +16,7 @@
 
 按研究方向探索模型、训练框架、评测基准与开源工具。
 
-[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [模型训练](#user-content-training) · [新架构](#user-content-architectures) · [可解释性](#user-content-methods) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
+[语言模型](#user-content-language) · [视觉生成](#user-content-vision) · [语音生成](#user-content-speech) · [音频理解](#user-content-audio) · [具身智能](#user-content-embodied) · [模型训练](#user-content-training) · [新架构](#user-content-architectures) · [可解释性](#user-content-methods) · [数据](#user-content-data) · [评测基准](#user-content-benchmarks) · [工具与资源](#user-content-resources)
 
 <a id="language"></a>
 
@@ -28,8 +28,6 @@
 支持中英双语对话与工具调用<br>
 <a href="https://github.com/OpenMOSS/MOSS#模型">模型</a> · <a href="https://github.com/OpenMOSS/MOSS#下载安装">使用说明</a>
 </p>
-
-> **相关项目：** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought)（双语推理数据）
 
 <a id="vision"></a>
 
@@ -210,6 +208,16 @@
 
 > **相关项目：** [Lorsa](https://github.com/OpenMOSS/Lorsa)（低秩稀疏注意力分解）
 
+<a id="data"></a>
+
+## 数据
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Ultra-Innerthought">Ultra-Innerthought</a></strong><br>
+双语推理数据<br>
+<a href="https://huggingface.co/datasets/fnlp/Ultra-Innerthought">数据集</a>
+</p>
+
 <a id="benchmarks"></a>
 
 ## 评测基准与智能体评测
@@ -256,7 +264,7 @@
 
 <a id="resources"></a>
 
-## 综述、数据与开发工具
+## 综述与开发工具
 
 <p>
 <strong><a href="https://github.com/OpenMOSS/Awesome-WAM">Awesome-WAM</a></strong><br>

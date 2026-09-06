@@ -14,113 +14,265 @@ English · [简体中文](https://github.com/OpenMOSS/.github/blob/main/profile/
 
 ## Explore our projects
 
-Browse models, training frameworks, benchmarks, and research resources by area. Project names link to code; the last column leads to models, demos, papers, or documentation.
+Models, training frameworks, benchmarks, and research resources, organized by area.
 
-[Language models](#user-content-language) · [Vision & generation](#user-content-vision) · [Speech generation](#user-content-speech) · [Audio understanding](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Interpretability & training](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Resources & tools](#user-content-resources)
+[Language](#user-content-language) · [Vision](#user-content-vision) · [Speech](#user-content-speech) · [Audio](#user-content-audio) · [Embodied AI](#user-content-embodied) · [Training & interpretability](#user-content-methods) · [Benchmarks](#user-content-benchmarks) · [Tools & resources](#user-content-resources)
 
 <a id="language"></a>
 
-### Language models & post-training
+## Language models & post-training
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| <a href="https://github.com/OpenMOSS/MOSS"><img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/projects/moss.png" width="112" height="53" alt="MOSS logo"></a><br>**[MOSS](https://github.com/OpenMOSS/MOSS)** | Chinese and English dialogue with tool use | [Models](https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#models) · [Get started](https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#installation) |
-| <a href="https://github.com/OpenMOSS/DiRL"><img src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a><br>**[DiRL](https://github.com/OpenMOSS/DiRL)** | Supervised fine-tuning and reinforcement learning for diffusion language models | [Model](https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct) · [Paper](https://arxiv.org/abs/2512.22234) |
-| **[BandPO](https://github.com/OpenMOSS/BandPO)** | Probability-aware policy optimization for LLM reinforcement learning | [Paper](https://arxiv.org/abs/2603.04918) |
+<p>
+<a href="https://github.com/OpenMOSS/MOSS"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/projects/moss.png" width="112" height="53" alt="MOSS logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS">MOSS</a></strong><br>
+Chinese and English dialogue with tool use<br>
+<a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#models">Models</a> · <a href="https://github.com/OpenMOSS/MOSS/blob/main/README_en.md#installation">Get started</a>
+</p>
 
-**Also explore:** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought) (bilingual reasoning data)
+<p>
+<a href="https://github.com/OpenMOSS/DiRL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/DiRL/main/static/images/DiRL.jpg" width="112" height="47" alt="DiRL logo"></a>
+<strong><a href="https://github.com/OpenMOSS/DiRL">DiRL</a></strong><br>
+Supervised fine-tuning and reinforcement learning for diffusion language models<br>
+<a href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct">Model</a> · <a href="https://arxiv.org/abs/2512.22234">Paper</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/BandPO">BandPO</a></strong><br>
+Probability-aware policy optimization for LLM reinforcement learning<br>
+<a href="https://arxiv.org/abs/2603.04918">Paper</a>
+</p>
+
+> **Also explore:** [Ultra-Innerthought](https://github.com/OpenMOSS/Ultra-Innerthought) (bilingual reasoning data)
 
 <a id="vision"></a>
 
-### Vision & multimodal generation
+## Vision & multimodal generation
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| <a href="https://github.com/OpenMOSS/MOSS-VL"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-VL/main/assets/logo.png" width="82" height="56" alt="MOSS-VL logo"></a><br>**[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** | 11B models for long-form and real-time video understanding | [Demo](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-VL) · [Models](https://huggingface.co/collections/OpenMOSS-Team/moss-vl) |
-| <a href="https://github.com/OpenMOSS/MOVA"><img src="https://raw.githubusercontent.com/OpenMOSS/MOVA/main/assets/logo.png" width="112" height="53" alt="MOVA logo"></a><br>**[MOVA](https://github.com/OpenMOSS/MOVA)** | Generate video and synchronized audio, with training and LoRA workflows | [Samples](https://github.com/OpenMOSS/MOVA#demo) · [Models](https://huggingface.co/collections/OpenMOSS-Team/mova) |
-| **[OmniVAE](https://github.com/OpenMOSS/OmniVAE)** | Aligned audio-video representations for reconstruction and joint generation | [Project](https://openmoss.ai/OmniVAE.github.io/) · [Model](https://huggingface.co/OpenMOSS-Team/OmniVAE) |
-| <a href="https://github.com/OpenMOSS/AnyGPT"><img src="https://raw.githubusercontent.com/OpenMOSS/AnyGPT/main/static/images/logo.png" width="56" height="56" alt="AnyGPT logo"></a><br>**[AnyGPT](https://github.com/OpenMOSS/AnyGPT)** | A multimodal language model for text, speech, images, and music | [Demos](https://junzhan2000.github.io/AnyGPT.github.io/) · [Dataset](https://huggingface.co/datasets/fnlp/AnyInstruct) |
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-VL"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-VL/main/assets/logo.png" width="82" height="56" alt="MOSS-VL logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-VL">MOSS-VL</a></strong><br>
+11B models for long-form and real-time video understanding<br>
+<a href="https://huggingface.co/spaces/OpenMOSS-Team/MOSS-VL">Demo</a> · <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-vl">Models</a>
+</p>
 
-**Also explore:** [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) (earlier streaming video model)
+<p>
+<a href="https://github.com/OpenMOSS/MOVA"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOVA/main/assets/logo.png" width="112" height="53" alt="MOVA logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOVA">MOVA</a></strong><br>
+Generate video and synchronized audio, with training and LoRA workflows<br>
+<a href="https://github.com/OpenMOSS/MOVA#demo">Samples</a> · <a href="https://huggingface.co/collections/OpenMOSS-Team/mova">Models</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/OmniVAE">OmniVAE</a></strong><br>
+Aligned audio-video representations for reconstruction and joint generation<br>
+<a href="https://openmoss.ai/OmniVAE.github.io/">Project</a> · <a href="https://huggingface.co/OpenMOSS-Team/OmniVAE">Model</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/AnyGPT"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/AnyGPT/main/static/images/logo.png" width="56" height="56" alt="AnyGPT logo"></a>
+<strong><a href="https://github.com/OpenMOSS/AnyGPT">AnyGPT</a></strong><br>
+A multimodal language model for text, speech, images, and music<br>
+<a href="https://junzhan2000.github.io/AnyGPT.github.io/">Demos</a> · <a href="https://huggingface.co/datasets/fnlp/AnyInstruct">Dataset</a>
+</p>
+
+> **Also explore:** [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) (earlier streaming video model)
 
 <a id="speech"></a>
 
-### Speech & audio generation
+## Speech & audio generation
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** | Model family for narration, dialogue, voice design, and sound effects | [Model guide](https://github.com/OpenMOSS/MOSS-TTS#choose-a-model-for-your-task) · [Models](https://huggingface.co/collections/OpenMOSS-Team/moss-tts) |
-| **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** | 100M-parameter multilingual voice cloning with CPU and ONNX inference | [Demo](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano) · [Run locally](https://github.com/OpenMOSS/MOSS-TTS-Nano#quickstart) |
-| <a href="https://github.com/OpenMOSS/MOSS-TTSD"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-TTSD/main/asset/ttsd.png" width="84" height="56" alt="MOSS-TTSD logo"></a><br>**[MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD)** | Long-form, multi-speaker dialogue and podcast synthesis | [Demo](https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTSD-v1.0) · [Model](https://huggingface.co/OpenMOSS-Team/MOSS-TTSD-v1.0) |
-| <a href="https://github.com/OpenMOSS/MOSS-Speech"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Speech/main/assets/logo-large.png" width="112" height="30" alt="MOSS-Speech logo"></a><br>**[MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech)** | End-to-end speech-to-speech dialogue without text guidance | [Project](http://moss-speech.open-moss.com/) · [Paper](https://arxiv.org/abs/2510.00499) |
-| **[MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer)** | Streaming audio tokenization across speech, sound, and music | [Model](https://huggingface.co/OpenMOSS-Team/MOSS-Audio-Tokenizer) · [Paper](https://arxiv.org/abs/2602.10934) |
+<p>
+<strong><a href="https://github.com/OpenMOSS/MOSS-TTS">MOSS-TTS</a></strong><br>
+Model family for narration, dialogue, voice design, and sound effects<br>
+<a href="https://github.com/OpenMOSS/MOSS-TTS#choose-a-model-for-your-task">Model guide</a> · <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-tts">Models</a>
+</p>
 
-**Also explore:** [MOSS-TTS-Nano-Reader](https://github.com/OpenMOSS/MOSS-TTS-Nano-Reader) (in-browser reading) · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) (real-time spoken dialogue)
+<p>
+<strong><a href="https://github.com/OpenMOSS/MOSS-TTS-Nano">MOSS-TTS-Nano</a></strong><br>
+100M-parameter multilingual voice cloning with CPU and ONNX inference<br>
+<a href="https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTS-Nano">Demo</a> · <a href="https://github.com/OpenMOSS/MOSS-TTS-Nano#quickstart">Run locally</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-TTSD"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-TTSD/main/asset/ttsd.png" width="84" height="56" alt="MOSS-TTSD logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-TTSD">MOSS-TTSD</a></strong><br>
+Long-form, multi-speaker dialogue and podcast synthesis<br>
+<a href="https://huggingface.co/spaces/OpenMOSS-Team/MOSS-TTSD-v1.0">Demo</a> · <a href="https://huggingface.co/OpenMOSS-Team/MOSS-TTSD-v1.0">Model</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-Speech"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Speech/main/assets/logo-large.png" width="112" height="30" alt="MOSS-Speech logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-Speech">MOSS-Speech</a></strong><br>
+End-to-end speech-to-speech dialogue without text guidance<br>
+<a href="http://moss-speech.open-moss.com/">Project</a> · <a href="https://arxiv.org/abs/2510.00499">Paper</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/MOSS-Audio-Tokenizer">MOSS-Audio-Tokenizer</a></strong><br>
+Streaming audio tokenization across speech, sound, and music<br>
+<a href="https://huggingface.co/OpenMOSS-Team/MOSS-Audio-Tokenizer">Model</a> · <a href="https://arxiv.org/abs/2602.10934">Paper</a>
+</p>
+
+> **Also explore:** [MOSS-TTS-Nano-Reader](https://github.com/OpenMOSS/MOSS-TTS-Nano-Reader) (in-browser reading) · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) (real-time spoken dialogue)
 
 <a id="audio"></a>
 
-### Speech, audio & music understanding
+## Speech, audio & music understanding
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| <a href="https://github.com/OpenMOSS/MOSS-Transcribe-Diarize"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/main/moss_transcribe_diarize/app/static/favicon.svg" width="56" height="56" alt="MOSS-Transcribe-Diarize logo"></a><br>**[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** | 0.9B transcription in 50+ languages, with speaker labels and timestamps | [Subtitle app](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize#subtitle-web-app) · [Model](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) |
-| <a href="https://github.com/OpenMOSS/MOSS-Audio"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Audio/main/assets/moss-audio-logo.png" width="84" height="56" alt="MOSS-Audio logo"></a><br>**[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** | Captioning, question answering, and reasoning over real-world audio | [Project](https://openmoss.ai/MOSS-Audio/) · [Models](https://huggingface.co/collections/OpenMOSS-Team/moss-audio) |
-| <a href="https://github.com/OpenMOSS/MOSS-Music"><img src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Music/main/assets/MOSS-Music.png" width="84" height="56" alt="MOSS-Music logo"></a><br>**[MOSS-Music](https://github.com/OpenMOSS/MOSS-Music)** | Music captioning, lyrics transcription, structural analysis, and QA | [Model](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) |
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-Transcribe-Diarize"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/main/moss_transcribe_diarize/app/static/favicon.svg" width="56" height="56" alt="MOSS-Transcribe-Diarize logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-Transcribe-Diarize">MOSS-Transcribe-Diarize</a></strong><br>
+0.9B transcription in 50+ languages, with speaker labels and timestamps<br>
+<a href="https://github.com/OpenMOSS/MOSS-Transcribe-Diarize#subtitle-web-app">Subtitle app</a> · <a href="https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize">Model</a>
+</p>
 
-**Also explore:** [MOSS-Audio-Tokenizer-Eval](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer-Eval) (codec reconstruction evaluation) · [TTSD-eval](https://github.com/OpenMOSS/TTSD-eval) (multi-speaker speech evaluation)
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-Audio"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Audio/main/assets/moss-audio-logo.png" width="84" height="56" alt="MOSS-Audio logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-Audio">MOSS-Audio</a></strong><br>
+Captioning, question answering, and reasoning over real-world audio<br>
+<a href="https://openmoss.ai/MOSS-Audio/">Project</a> · <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-audio">Models</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/MOSS-Music"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/MOSS-Music/main/assets/MOSS-Music.png" width="84" height="56" alt="MOSS-Music logo"></a>
+<strong><a href="https://github.com/OpenMOSS/MOSS-Music">MOSS-Music</a></strong><br>
+Music captioning, lyrics transcription, structural analysis, and QA<br>
+<a href="https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct">Model</a>
+</p>
+
+> **Also explore:** [MOSS-Audio-Tokenizer-Eval](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer-Eval) (codec reconstruction evaluation) · [TTSD-eval](https://github.com/OpenMOSS/TTSD-eval) (multi-speaker speech evaluation)
 
 <a id="embodied"></a>
 
-### Embodied intelligence & robotics
+## Embodied intelligence & robotics
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| <a href="https://github.com/OpenMOSS/EasyWAM"><img src="https://raw.githubusercontent.com/OpenMOSS/EasyWAM/main/assets/icon.png" width="56" height="56" alt="EasyWAM logo"></a><br>**[EasyWAM](https://github.com/OpenMOSS/EasyWAM)** | Train, fine-tune, and evaluate World Action Models in a shared framework | [Project](https://openmoss.ai/EasyWAM/) · [Models](https://huggingface.co/collections/OpenMOSS-Team/easywam) |
-| <a href="https://github.com/OpenMOSS/OpenETA"><img src="https://raw.githubusercontent.com/OpenMOSS/OpenETA/main/docs/assets/openeta-header-eta-clear.png" width="112" height="39" alt="OpenETA logo"></a><br>**[OpenETA](https://github.com/OpenMOSS/OpenETA)** | An embodied agent linking perception, action, verification, and learning | [Project](https://openmoss.ai/OpenETA/) |
-| <a href="https://github.com/OpenMOSS/RoboOmni"><img src="https://raw.githubusercontent.com/OpenMOSS/RoboOmni/main/assets/logo.png" width="112" height="28" alt="RoboOmni logo"></a><br>**[RoboOmni](https://github.com/OpenMOSS/RoboOmni)** | Proactive robot manipulation in multimodal physical environments | [Project](https://openmoss.github.io/RoboOmni/) · [Model](https://huggingface.co/fnlp/RoboOmni) |
-| **[FRoM-W1](https://github.com/OpenMOSS/FRoM-W1)** | Language-guided whole-body control for humanoid robots | [Project](https://openmoss.github.io/FRoM-W1) |
+<p>
+<a href="https://github.com/OpenMOSS/EasyWAM"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/EasyWAM/main/assets/icon.png" width="56" height="56" alt="EasyWAM logo"></a>
+<strong><a href="https://github.com/OpenMOSS/EasyWAM">EasyWAM</a></strong><br>
+Train, fine-tune, and evaluate World Action Models in a shared framework<br>
+<a href="https://openmoss.ai/EasyWAM/">Project</a> · <a href="https://huggingface.co/collections/OpenMOSS-Team/easywam">Models</a>
+</p>
 
-**Also explore:** [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) (reinforcement learning for embodied planning)
+<p>
+<a href="https://github.com/OpenMOSS/OpenETA"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/OpenETA/main/docs/assets/openeta-header-eta-clear.png" width="112" height="39" alt="OpenETA logo"></a>
+<strong><a href="https://github.com/OpenMOSS/OpenETA">OpenETA</a></strong><br>
+An embodied agent linking perception, action, verification, and learning<br>
+<a href="https://openmoss.ai/OpenETA/">Project</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/RoboOmni"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/RoboOmni/main/assets/logo.png" width="112" height="28" alt="RoboOmni logo"></a>
+<strong><a href="https://github.com/OpenMOSS/RoboOmni">RoboOmni</a></strong><br>
+Proactive robot manipulation in multimodal physical environments<br>
+<a href="https://openmoss.github.io/RoboOmni/">Project</a> · <a href="https://huggingface.co/fnlp/RoboOmni">Model</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/FRoM-W1">FRoM-W1</a></strong><br>
+Language-guided whole-body control for humanoid robots<br>
+<a href="https://openmoss.github.io/FRoM-W1">Project</a>
+</p>
+
+> **Also explore:** [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) (reinforcement learning for embodied planning)
 
 <a id="methods"></a>
 
-### Interpretability, training & long context
+## Interpretability, training & long context
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| **[Llamascopium](https://github.com/OpenMOSS/Llamascopium)** | Train and analyze sparse autoencoders, trace circuits, and visualize features | [Docs](https://openmoss.ai/Llamascopium/) |
-| <a href="https://github.com/OpenMOSS/CoLLiE"><img src="https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png" width="112" height="28" alt="CoLLiE logo"></a><br>**[CoLLiE](https://github.com/OpenMOSS/CoLLiE)** | Efficient collaborative training of large language models | [Docs](https://openlmlab-collie.readthedocs.io) |
-| **[LongLLaDA](https://github.com/OpenMOSS/LongLLaDA)** | Extend the context length of diffusion language models | [Paper](https://arxiv.org/abs/2506.14429) |
-| **[Sparse-dLLM](https://github.com/OpenMOSS/Sparse-dLLM)** | Accelerate diffusion LLMs with cache eviction and sparse attention | [Paper](https://arxiv.org/abs/2508.02558) |
+<p>
+<strong><a href="https://github.com/OpenMOSS/Llamascopium">Llamascopium</a></strong><br>
+Train and analyze sparse autoencoders, trace circuits, and visualize features<br>
+<a href="https://openmoss.ai/Llamascopium/">Docs</a>
+</p>
 
-**Also explore:** [Lorsa](https://github.com/OpenMOSS/Lorsa) (low-rank sparse attention decomposition) · [rope_pp](https://github.com/OpenMOSS/rope_pp) (rotary position embeddings for long context) · [ReAttention](https://github.com/OpenMOSS/ReAttention) (training-free context extension)
+<p>
+<a href="https://github.com/OpenMOSS/CoLLiE"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/CoLLiE/main/docs/assets/images/banner.png" width="112" height="28" alt="CoLLiE logo"></a>
+<strong><a href="https://github.com/OpenMOSS/CoLLiE">CoLLiE</a></strong><br>
+Efficient collaborative training of large language models<br>
+<a href="https://openlmlab-collie.readthedocs.io">Docs</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/LongLLaDA">LongLLaDA</a></strong><br>
+Extend the context length of diffusion language models<br>
+<a href="https://arxiv.org/abs/2506.14429">Paper</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/Sparse-dLLM">Sparse-dLLM</a></strong><br>
+Accelerate diffusion LLMs with cache eviction and sparse attention<br>
+<a href="https://arxiv.org/abs/2508.02558">Paper</a>
+</p>
+
+> **Also explore:** [Lorsa](https://github.com/OpenMOSS/Lorsa) (low-rank sparse attention decomposition) · [rope_pp](https://github.com/OpenMOSS/rope_pp) (rotary position embeddings for long context) · [ReAttention](https://github.com/OpenMOSS/ReAttention) (training-free context extension)
 
 <a id="benchmarks"></a>
 
-### Benchmarks & agent evaluation
+## Benchmarks & agent evaluation
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| **[SWE-bench-Science](https://github.com/OpenMOSS/SWE-bench-Science)** | Coding-agent evaluation on engineering tasks in scientific software | [Leaderboard](https://swescience.github.io/) · [Dataset](https://huggingface.co/datasets/OpenMOSS-Team/SWE-bench-Science) |
-| **[ContextWeave](https://github.com/OpenMOSS/ContextWeave)** | Evaluate coding-agent memory through long-horizon worklog tasks | [Paper](http://arxiv.org/abs/2608.04830) |
-| <a href="https://github.com/OpenMOSS/AgentHPOBench"><img src="https://raw.githubusercontent.com/OpenMOSS/AgentHPOBench/main/assets/agenthpobench-logo.png" width="112" height="37" alt="AgentHPOBench logo"></a><br>**[AgentHPOBench](https://github.com/OpenMOSS/AgentHPOBench)** | Evaluate LLM agents as sequential hyperparameter optimizers | [Paper](https://arxiv.org/abs/2607.29626) |
-| **[ABC-Bench](https://github.com/OpenMOSS/ABC-Bench)** | Test whether coding agents can build, deploy, and verify backend services | [Project](https://dawning-road.github.io/blog/abc-bench) |
-| <a href="https://github.com/OpenMOSS/FutureOmni"><img src="https://raw.githubusercontent.com/OpenMOSS/FutureOmni/main/asset/logo0.png" width="58" height="56" alt="FutureOmni logo"></a><br>**[FutureOmni](https://github.com/OpenMOSS/FutureOmni)** | Forecast future events from audio and video context | [Project](https://openmoss.ai/FutureOmni/) · [Dataset](https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni) |
-| **[VLABench](https://github.com/OpenMOSS/VLABench)** | Evaluate vision-language-action models and embodied agents | [Project](https://vlabench.github.io/) |
+<p>
+<strong><a href="https://github.com/OpenMOSS/SWE-bench-Science">SWE-bench-Science</a></strong><br>
+Coding-agent evaluation on engineering tasks in scientific software<br>
+<a href="https://swescience.github.io/">Leaderboard</a> · <a href="https://huggingface.co/datasets/OpenMOSS-Team/SWE-bench-Science">Dataset</a>
+</p>
 
-**Also explore:** [LongSafety](https://github.com/OpenMOSS/LongSafety) (long-context safety) · [VehicleWorld](https://github.com/OpenMOSS/VehicleWorld) (connected cockpit interaction) · [HalluQA](https://github.com/OpenMOSS/HalluQA) (Chinese hallucination evaluation) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) (Chinese multimodal evaluation) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) (knowing when to abstain)
+<p>
+<strong><a href="https://github.com/OpenMOSS/ContextWeave">ContextWeave</a></strong><br>
+Evaluate coding-agent memory through long-horizon worklog tasks<br>
+<a href="http://arxiv.org/abs/2608.04830">Paper</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/AgentHPOBench"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/AgentHPOBench/main/assets/agenthpobench-logo.png" width="112" height="37" alt="AgentHPOBench logo"></a>
+<strong><a href="https://github.com/OpenMOSS/AgentHPOBench">AgentHPOBench</a></strong><br>
+Evaluate LLM agents as sequential hyperparameter optimizers<br>
+<a href="https://arxiv.org/abs/2607.29626">Paper</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/ABC-Bench">ABC-Bench</a></strong><br>
+Test whether coding agents can build, deploy, and verify backend services<br>
+<a href="https://dawning-road.github.io/blog/abc-bench">Project</a>
+</p>
+
+<p>
+<a href="https://github.com/OpenMOSS/FutureOmni"><img align="right" hspace="16" src="https://raw.githubusercontent.com/OpenMOSS/FutureOmni/main/asset/logo0.png" width="58" height="56" alt="FutureOmni logo"></a>
+<strong><a href="https://github.com/OpenMOSS/FutureOmni">FutureOmni</a></strong><br>
+Forecast future events from audio and video context<br>
+<a href="https://openmoss.ai/FutureOmni/">Project</a> · <a href="https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni">Dataset</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/VLABench">VLABench</a></strong><br>
+Evaluate vision-language-action models and embodied agents<br>
+<a href="https://vlabench.github.io/">Project</a>
+</p>
+
+> **Also explore:** [LongSafety](https://github.com/OpenMOSS/LongSafety) (long-context safety) · [VehicleWorld](https://github.com/OpenMOSS/VehicleWorld) (connected cockpit interaction) · [HalluQA](https://github.com/OpenMOSS/HalluQA) (Chinese hallucination evaluation) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) (Chinese multimodal evaluation) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) (knowing when to abstain)
 
 <a id="resources"></a>
 
-### Surveys, datasets & developer tools
+## Surveys, datasets & developer tools
 
-| Project | What it does | Explore |
-| --- | --- | --- |
-| **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** | World Action Model survey, paper collection, and benchmark comparisons | [Browse](https://openmoss.ai/Awesome-WAM/) · [Benchmarks](https://openmoss.ai/Awesome-WAM/leaderboard/) |
-| **[Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM)** | A survey of long-context architectures, infrastructure, training, and evaluation | [Paper](https://arxiv.org/abs/2502.17129) |
-| **[UnifiedToolHub](https://github.com/OpenMOSS/UnifiedToolHub)** | Prepare tool-use datasets and train and evaluate tool-using language models | [Quickstart](https://github.com/OpenMOSS/UnifiedToolHub#快速上手) |
+<p>
+<strong><a href="https://github.com/OpenMOSS/Awesome-WAM">Awesome-WAM</a></strong><br>
+World Action Model survey, paper collection, and benchmark comparisons<br>
+<a href="https://openmoss.ai/Awesome-WAM/">Browse</a> · <a href="https://openmoss.ai/Awesome-WAM/leaderboard/">Benchmarks</a>
+</p>
 
-**Also explore:** [claude-codex-handoff](https://github.com/OpenMOSS/claude-codex-handoff) (agent collaboration protocol) · [OurClaw](https://github.com/OpenMOSS/OurClaw) (multi-user OpenClaw deployment) · [imclaw-skill](https://github.com/OpenMOSS/imclaw-skill) (agent messaging)
+<p>
+<strong><a href="https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM">Thus-Spake-Long-Context-LLM</a></strong><br>
+A survey of long-context architectures, infrastructure, training, and evaluation<br>
+<a href="https://arxiv.org/abs/2502.17129">Paper</a>
+</p>
+
+<p>
+<strong><a href="https://github.com/OpenMOSS/UnifiedToolHub">UnifiedToolHub</a></strong><br>
+Prepare tool-use datasets and train and evaluate tool-using language models<br>
+<a href="https://github.com/OpenMOSS/UnifiedToolHub#快速上手">Quickstart</a>
+</p>
+
+> **Also explore:** [claude-codex-handoff](https://github.com/OpenMOSS/claude-codex-handoff) (agent collaboration protocol) · [OurClaw](https://github.com/OpenMOSS/OurClaw) (multi-user OpenClaw deployment) · [imclaw-skill](https://github.com/OpenMOSS/imclaw-skill) (agent messaging)
 
 ## Build with us
 
